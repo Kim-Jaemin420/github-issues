@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://api.github.com';
+export const BASE_URL = 'https://api.github.com/repos/facebook/react/issues';
 
 export const HTTP_METHODS = {
   GET: 'get',
