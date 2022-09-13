@@ -6,3 +6,9 @@ export const getIssues = () => {
     url: BASE_URL,
   });
 };
+
+export const getAnIssue = (issueNumber) => {
+  return api.get({
+    url: `${BASE_URL}/${issueNumber}`,
+  });
+};
